@@ -170,7 +170,13 @@ export default function Home() {
             </p>
             <div className="flex justify-center items-center gap-2 mt-2">
               <div className="border-b-2 border-purple-800">
-                <p className="text-lg">Sign up for our newsletter</p>
+                <p className="text-lg">
+                  <Link href="/">
+                    <a>
+                    Sign up for our newsletter
+                    </a>
+                  </Link>
+                </p>
               </div>
               <Image src={mouse} alt="mouse" />
             </div>
